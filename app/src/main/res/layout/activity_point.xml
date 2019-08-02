@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background2"
     android:layout_height="match_parent"
     tools:context=".PointActivity">
     <LinearLayout
-        android:background="@color/colorPrimaryNHAT"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quay lại"
-            android:background="@drawable/splashscreen"
+            android:textColor="@color/white"
+            android:text="Thoát"
+            android:background="@drawable/style_button"
             />
         <TextView
             android:layout_marginHorizontal="50dp"
+            android:layout_gravity="center"
             android:text="Điểm Cao"
+            android:textColor="@color/colorOrange"
             android:textStyle="bold"
             android:gravity="center"
             android:textSize="32sp"
@@ -27,6 +30,7 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
