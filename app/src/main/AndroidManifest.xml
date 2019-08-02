@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuActivivy"></activity>
+        <activity android:name=".PointActivity"></activity>
+        <activity android:name=".LostActivity" />
+        <activity android:name=".WinActivity" />
+        <activity android:name=".PauseActivity" />
+        <activity android:name=".PlayActivity" />
+        <activity android:name=".NameActivity" />
+        <activity android:name=".MenuActivivy" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
